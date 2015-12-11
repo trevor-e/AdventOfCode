@@ -12,12 +12,13 @@ import java.util.stream.Collectors;
  */
 public class Utils {
 
-    public static String readToString(InputStream input) throws IOException {
-        return readToList(input).stream().collect(Collectors.joining("\n"));
+    public static String readToString(String filename) throws IOException {
+        return readToList(filename).stream().collect(Collectors.joining("\n"));
     }
 
-    public static List<String> readToList(InputStream input) throws IOException {
-        try (BufferedReader buffer = new BufferedReader(new InputStreamReader(input))) {
+    public static List<String> readToList(String filename) throws IOException {
+        InputStream inputStream = ClassLoader.getSystemResourceAsStream(filename);
+        try (BufferedReader buffer = new BufferedReader(new InputStreamReader(inputStream))) {
             return buffer.lines().collect(Collectors.toList());
         }
     }

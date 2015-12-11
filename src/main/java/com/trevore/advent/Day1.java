@@ -9,8 +9,7 @@ import java.io.InputStream;
 public class Day1 {
 
     public long solvePartOne(String filename) throws IOException {
-        InputStream inputStream = ClassLoader.getSystemResourceAsStream(filename);
-        String input = Utils.readToString(inputStream);
+        String input = Utils.readToString(filename);
 
         long leftParenCount = input.chars().filter(c -> c == '(').count();
         long rightParenCount = input.chars().filter(c -> c == ')').count();
@@ -19,8 +18,7 @@ public class Day1 {
     }
 
     public int solvePartTwo(String filename) throws IOException {
-        InputStream inputStream = ClassLoader.getSystemResourceAsStream(filename);
-        String input = Utils.readToString(inputStream);
+        String input = Utils.readToString(filename);
 
         int floorLevel = 0;
         char[] inputChars = input.toCharArray();

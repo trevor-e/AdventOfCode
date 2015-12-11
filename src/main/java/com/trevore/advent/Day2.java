@@ -13,15 +13,13 @@ import java.util.stream.Collectors;
 public class Day2 {
 
     public int solvePartOne(String filename) throws IOException {
-        InputStream inputStream = ClassLoader.getSystemResourceAsStream(filename);
-        return Utils.readToList(inputStream).stream()
+        return Utils.readToList(filename).stream()
                 .map(line -> getWrappingPaperSquareFootage(line))
                 .reduce(0, Integer::sum);
     }
 
     public int solvePartTwo(String filename) throws IOException {
-        InputStream inputStream = ClassLoader.getSystemResourceAsStream(filename);
-        return Utils.readToList(inputStream).stream()
+        return Utils.readToList(filename).stream()
                 .map(line -> getRibbonLength(line))
                 .reduce(0, Integer::sum);
     }
