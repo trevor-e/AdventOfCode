@@ -8,11 +8,12 @@ import java.io.IOException;
 public class AdventOfCodeRunner {
 
     public static void main(String[] args) throws IOException {
-        Day1 day1 = new Day1();
-        long solutionOne = day1.solvePartOne("Day1Input");
-        int solutionTwo = day1.solvePartTwo("Day1Input");
+        Day2 day2 = new Day2();
 
-        System.out.printf("Day1 Part 1: %d\n", solutionOne);
-        System.out.printf("Day1 Part 2: %d\n", solutionTwo);
+        int partOneSolution = day2.solvePartOne("Day2Input");
+        System.out.printf("Day2 Part1: %d\n", partOneSolution);
+
+        int partTwoSolution = day2.solvePartTwo("Day2Input");
+        System.out.printf("Day2 Part2: %d", partTwoSolution);
     }
 }

@@ -1,6 +1,5 @@
 package com.trevore.advent;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -10,8 +9,8 @@ import java.io.InputStream;
 public class Day1 {
 
     public long solvePartOne(String filename) throws IOException {
-        InputStream inputStream = ClassLoader.getSystemResourceAsStream("Day1Input");
-        String input = Utils.read(inputStream);
+        InputStream inputStream = ClassLoader.getSystemResourceAsStream(filename);
+        String input = Utils.readToString(inputStream);
 
         long leftParenCount = input.chars().filter(c -> c == '(').count();
         long rightParenCount = input.chars().filter(c -> c == ')').count();
@@ -20,8 +19,8 @@ public class Day1 {
     }
 
     public int solvePartTwo(String filename) throws IOException {
-        InputStream inputStream = ClassLoader.getSystemResourceAsStream("Day1Input");
-        String input = Utils.read(inputStream);
+        InputStream inputStream = ClassLoader.getSystemResourceAsStream(filename);
+        String input = Utils.readToString(inputStream);
 
         int floorLevel = 0;
         char[] inputChars = input.toCharArray();
