@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61b2077-30b6-441d-bef2-8f9ad6db91a0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trevore/advent/AdventOfCodeRunner.java" afterPath="$PROJECT_DIR$/src/main/java/com/trevore/advent/AdventOfCodeRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trevore/advent/Day3.java" afterPath="$PROJECT_DIR$/src/main/java/com/trevore/advent/Day3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/trevore/advent/Day3Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/trevore/advent/Day3Test.java" />
     </list>
     <ignored path="AdventOfCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,34 +83,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Day3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/trevore/advent/Day3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7762557" vertical-offset="48" max-vertical-offset="1335">
-              <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="2175">
+              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1544#1545#0" expanded="true" />
-                <element signature="e#1604#1605#0" expanded="true" />
-                <element signature="e#1690#1691#0" expanded="true" />
-                <element signature="e#1740#1741#0" expanded="true" />
-                <element signature="class#Coordinate#0;class#Day3#0" expanded="false" />
+                <element signature="e#2071#2072#0" expanded="true" />
+                <element signature="e#2131#2132#0" expanded="true" />
+                <element signature="e#2234#2235#0" expanded="true" />
+                <element signature="e#2293#2294#0" expanded="true" />
+                <element signature="e#2392#2393#0" expanded="true" />
+                <element signature="e#2451#2452#0" expanded="true" />
+                <element signature="e#2553#2554#0" expanded="true" />
+                <element signature="e#2613#2614#0" expanded="true" />
+                <element signature="e#2699#2700#0" expanded="true" />
+                <element signature="e#2749#2750#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day3Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Day3Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/trevore/advent/Day3Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.3652968" vertical-offset="0" max-vertical-offset="657">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
@@ -180,7 +178,7 @@
             <ExternalSystemSettings>
               <option name="externalProjectPath" value="$PROJECT_DIR$" />
               <option name="externalSystemIdString" value="GRADLE" />
-              <option name="scriptParameters" value="--tests com.trevore.advent.*" />
+              <option name="scriptParameters" value="--tests &quot;com.trevore.advent.Day3Test.testSolvePartTwo&quot;" />
               <option name="taskNames">
                 <list>
                   <option value="cleanTest" />
@@ -516,10 +514,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/trevore/advent/AdventOfCodeRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/trevore/advent/Day3Test.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/com/trevore/advent/Day3Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/trevore/advent/Day2Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/trevore/advent/Day1Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/trevore/advent/Day3.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/trevore/advent/Day3Test.java" />
       </list>
     </option>
   </component>
@@ -679,27 +677,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'com.trevore.advent'">
-    <configuration default="false" name="AdventOfCode [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="assemble" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Gradle.testSolvePartTwo">
     <configuration default="false" name="AdventOfCode [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -773,6 +751,27 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests com.trevore.advent.*" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cleanTest" />
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testSolvePartTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.trevore.advent.Day3Test.testSolvePartTwo&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -1152,19 +1151,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.AdventOfCode [assemble]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.AdventOfCode [compileJava]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.AdventOfCode [run]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.testSolvePartOne" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.Tests in 'com.trevore.advent'" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.AdventOfCode [compileJava]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.AdventOfCode [run]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.testSolvePartOne" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.Tests in 'com.trevore.advent'" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.testSolvePartTwo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.Tests in 'com.trevore.advent'" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.testSolvePartOne" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.AdventOfCode [run]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.AdventOfCode [compileJava]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.AdventOfCode [assemble]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.testSolvePartTwo" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.Tests in 'com.trevore.advent'" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.testSolvePartOne" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.AdventOfCode [run]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.AdventOfCode [compileJava]" />
       </list>
     </recent_temporary>
   </component>
@@ -1186,12 +1185,12 @@
       <option name="number" value="Default" />
       <updated>1449800903631</updated>
       <workItem from="1449800905086" duration="10064000" />
-      <workItem from="1449897125644" duration="922000" />
+      <workItem from="1449897125644" duration="1772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10986000" />
+    <option name="totallyTimeSpent" value="11836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1233" height="777" extended-state="6" />
@@ -1290,17 +1289,16 @@
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="class#Coordinate#0;class#Day3#0" expanded="false" />
+            <element signature="e#2071#2072#0" expanded="true" />
+            <element signature="e#2131#2132#0" expanded="true" />
+            <element signature="e#2234#2235#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="e#2451#2452#0" expanded="true" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2613#2614#0" expanded="true" />
+            <element signature="e#2699#2700#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1413,17 +1411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/trevore/advent/Day3Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/trevore/advent/Day2Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="450">
@@ -1470,21 +1457,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/trevore/advent/Day3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7762557" vertical-offset="48" max-vertical-offset="1335">
-          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="2175">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="class#Coordinate#0;class#Day3#0" expanded="false" />
+            <element signature="e#2071#2072#0" expanded="true" />
+            <element signature="e#2131#2132#0" expanded="true" />
+            <element signature="e#2234#2235#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="e#2451#2452#0" expanded="true" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2613#2614#0" expanded="true" />
+            <element signature="e#2699#2700#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/trevore/advent/Day3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3652968" vertical-offset="0" max-vertical-offset="657">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
           </folding>
         </state>
       </provider>

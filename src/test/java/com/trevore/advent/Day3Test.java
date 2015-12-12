@@ -18,4 +18,9 @@ public class Day3Test {
     public void testSolvePartOne() throws Exception {
         Assert.assertEquals(2592, day3.solvePartOne("Day3Input"));
     }
+
+    @Test
+    public void testSolvePartTwo() throws Exception {
+        Assert.assertEquals(2360, day3.solvePartTwo("Day3Input"));
+    }
 }

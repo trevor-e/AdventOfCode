@@ -14,8 +14,8 @@ public class Day3 {
     public int solvePartOne(String filename) throws IOException {
         Set<Coordinate> houses = new HashSet<>();
 
-        Coordinate currentPosition = new Coordinate(0,0);
-        houses.add(currentPosition);
+        Coordinate santaPosition = new Coordinate(0,0);
+        houses.add(santaPosition);
 
         List<Movement> movements = Utils.readToString(filename).chars().boxed()
                 .map(Movement::fromCharacter)
@@ -23,9 +23,36 @@ public class Day3 {
 
         for (Movement movement : movements) {
             Coordinate adjustment = movement.getAdjustment();
-            currentPosition = new Coordinate(currentPosition.x + adjustment.x,
-                    currentPosition.y + adjustment.y);
-            houses.add(currentPosition);
+            santaPosition = new Coordinate(santaPosition.x + adjustment.x,
+                    santaPosition.y + adjustment.y);
+            houses.add(santaPosition);
+        }
+
+        return houses.size();
+    }
+
+    public int solvePartTwo(String filename) throws IOException {
+        Set<Coordinate> houses = new HashSet<>();
+
+        Coordinate santaPosition = new Coordinate(0,0);
+        Coordinate robotPosition = new Coordinate(0,0);
+        houses.add(santaPosition);
+        houses.add(robotPosition);
+
+        List<Movement> movements = Utils.readToString(filename).chars().boxed()
+                .map(Movement::fromCharacter)
+                .collect(Collectors.toList());
+
+        for (int x = 0; x < movements.size(); x++) {
+            Coordinate adjustment = movements.get(x).getAdjustment();
+
+            if (x % 2 == 0) {
+                santaPosition = new Coordinate(santaPosition.x + adjustment.x, santaPosition.y + adjustment.y);
+                houses.add(santaPosition);
+            } else {
+                robotPosition = new Coordinate(robotPosition.x + adjustment.x, robotPosition.y + adjustment.y);
+                houses.add(robotPosition);
+            }
         }
 
         return houses.size();
