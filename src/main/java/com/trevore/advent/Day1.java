@@ -36,6 +36,6 @@ public class Day1 {
             }
         }
 
-        return Integer.MAX_VALUE;
+        throw new IllegalArgumentException("Input never reaches the basement");
     }
 }
