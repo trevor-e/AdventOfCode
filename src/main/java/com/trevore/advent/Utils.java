@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Created by trevor on 12/10/15.
@@ -21,6 +22,10 @@ public class Utils {
         try (BufferedReader buffer = new BufferedReader(new InputStreamReader(inputStream))) {
             return buffer.lines().collect(Collectors.toList());
         }
+    }
+
+    static int[] parseIntArray(String[] array) {
+        return Stream.of(array).mapToInt(Integer::parseInt).toArray();
     }
 
 }

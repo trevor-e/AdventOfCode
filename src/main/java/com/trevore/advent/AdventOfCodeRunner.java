@@ -8,7 +8,7 @@ import java.io.IOException;
 public class AdventOfCodeRunner {
 
     public static void main(String[] args) throws Exception {
-        Day4 day4 = new Day4();
-        System.out.println(day4.solvePartOne("ckczppom"));
+        Day5 day5 = new Day5();
+        day5.solvePartOne("Day5Input");
     }
 }
